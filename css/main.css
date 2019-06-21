@@ -1952,6 +1952,9 @@ body.mobile-nav-active #mobile-nav-toggle {
    
   h1{
     font-size: 40px !important;
+  }
+  h2{
+    font-size: 30px !important;
   } 
   }
 .about-area {
