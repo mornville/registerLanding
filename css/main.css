@@ -1940,6 +1940,20 @@ body.mobile-nav-active #mobile-nav-toggle {
   h1{
     font-size: 40px !important;
   } }
+  @media screen and (max-width: 600px) {
+    .center{
+      text-align: center;
+    }
+    .home-banner-area {
+      text-align: center !important; }
+    .side-left{
+      margin-left:50px !important
+    }
+   
+  h1{
+    font-size: 40px !important;
+  } 
+  }
 .about-area {
   position: relative;
   padding: 150px 0 70px; }
