@@ -697,7 +697,10 @@ td, th {
   .buttons:hover {
     cursor: pointer;
     box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
-    background-color: #46dbf9;
+    background-image: -moz-linear-gradient(0deg, #46dbf9 0%, #204be3 100%);
+    background-image: -webkit-linear-gradient(0deg, #46dbf9 0%, #204be3 100%);
+    background-image: -ms-linear-gradient(0deg, #46dbf9 0%, #204be3 100%);
+    background-image: -o-linear-gradient(0deg, #46dbf9 0%, #204be3 100%);
     color: #fff !important;
     border: 1px solid transparent; }
     .buttons:hover a {
@@ -722,7 +725,7 @@ td, th {
     .buttons.dark a {
       color: #fff; }
     .buttons.dark:hover {
-      background-color: #46dbf9;
+      background-color: rgba(16, 138, 252, 0.719);;
       border: 1px solid transparent; }
   .buttons.gray {
     background-color: #393939;
@@ -1407,7 +1410,10 @@ h1, h2, h3, h4, h5, h6 {
     .confirm-checkbox input:checked + label {
       background: url(../img/elements/success-check.png) no-repeat center center/cover;
       border: none; }
-
+      .side-left{
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
 .disabled-checkbox {
   width: 16px;
   height: 16px;
@@ -1634,7 +1640,10 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997; }
 
 .header-scrolled {
-  background: rgba(70, 219, 249, 0.9);
+  background-image: -moz-linear-gradient(0deg, #46dbf9 0%, #204be3 100%);
+  background-image: -webkit-linear-gradient(0deg, #46dbf9 0%, #204be3 100%);
+  background-image: -ms-linear-gradient(0deg, #46dbf9 0%, #204be3 100%);
+  background-image: -o-linear-gradient(0deg, #46dbf9 0%, #204be3 100%);
   transition: all 0.5s; }
 
 @media (max-width: 673px) {
@@ -1647,6 +1656,10 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   font-weight: 700;
   letter-spacing: 3px; }
+  .side-left{
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
 
 #header #logo h1 a,
 #header #logo h1 a:hover {
@@ -1661,7 +1674,10 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
   #header #logo h1 {
     font-size: 28px; }
-
+    .side-left{
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
   #header #logo img {
     max-height: 40px; } }
 /*--------------------------------------------------------------
@@ -1772,7 +1788,11 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer; }
   @media (max-width: 767px) {
     #mobile-nav-toggle {
-      top: 22px; } }
+      top: 22px; } 
+      .side-left{
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }}
 
 #mobile-nav-toggle i {
   color: #fff;
@@ -1780,7 +1800,12 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 960px) {
   #mobile-nav-toggle {
-    display: inline; }
+    display: inline;
+   }
+   .side-left{
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
 
   #nav-menu-container {
     display: none; } }
@@ -1876,7 +1901,13 @@ body.mobile-nav-active #mobile-nav-toggle {
         text-align: center; } }
     @media (max-width: 767px) {
       .home-banner-area .banner-img {
-        display: none; } }
+        display: none; 
+      }
+      .side-left{
+        margin-left: auto !important;
+        margin-right: auto !important;
+        display: none !important;
+      } }
   @media (max-width: 991px) {
     .home-banner-area .fullscreen {
       height: 700px !important; } }
@@ -1932,7 +1963,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     .home-banner-area {
       text-align: center !important; }
     .side-left{
-      margin-left:50px !important
+      margin-left: auto !important;
+      margin-right: auto !important;
     }
     .center{
       text-align: center;
